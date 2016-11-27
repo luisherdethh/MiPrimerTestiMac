@@ -3,6 +3,8 @@ public class Main {
     public static void main(String[] args) {
 
         int a = 1;
-        System.out.println("Hello World!" + a);
+        int b = 2;
+        int r = a * b;
+        System.out.println("Hello World! " + r);
     }
 }
